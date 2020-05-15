@@ -102,8 +102,13 @@
           "options": {
             "browserTarget": "test-fb-config:build"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "test-fb-config"
 }

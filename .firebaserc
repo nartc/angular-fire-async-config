@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "pepper-ng-7f96b": {
+      "hosting": {
+        "test-fb-config": [
+          "pepper-ng-7f96b"
+        ]
+      }
+    }
+  }
+}
