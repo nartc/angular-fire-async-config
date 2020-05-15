@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(this.fbOptions);
+    console.log(this.afFire);
     this.afFire.collection('boards').valueChanges().subscribe(console.log);
   }
 

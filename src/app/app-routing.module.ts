@@ -11,6 +11,10 @@ const routes: Routes = [
     resolve: {
       config: ConfigResolver
     }
+  },
+  {
+    path: 'fb1',
+    loadChildren: () => import('./fb1/fb1.module').then(m => m.Fb1Module)
   }
 ];
 
